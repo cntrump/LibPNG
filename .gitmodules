@@ -1,0 +1,3 @@
+[submodule "LibPNG/libpng"]
+	path = LibPNG/libpng
+	url = https://gitlab.com/vvveiii/libpng.git
