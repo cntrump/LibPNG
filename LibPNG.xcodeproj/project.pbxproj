@@ -31,7 +31,7 @@
 		73FFD65C21D60B5000544ABD /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFD64521D60B5000544ABD /* pngconf.h */; };
 		73FFD65E21D60C7B00544ABD /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFD65D21D60C7B00544ABD /* pnglibconf.h */; };
 		73FFD66121D60CC400544ABD /* UIImage+libpng.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FFD65F21D60CC400544ABD /* UIImage+libpng.m */; };
-		73FFD66221D60CC400544ABD /* UIImage+libpng.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFD66021D60CC400544ABD /* UIImage+libpng.h */; };
+		73FFD66221D60CC400544ABD /* UIImage+libpng.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FFD66021D60CC400544ABD /* UIImage+libpng.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,13 +140,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				73FFD65821D60B5000544ABD /* pnginfo.h in Headers */,
+				73FFD66221D60CC400544ABD /* UIImage+libpng.h in Headers */,
 				73FFD65721D60B5000544ABD /* pngdebug.h in Headers */,
 				73FFD65421D60B5000544ABD /* png.h in Headers */,
 				73FFD65C21D60B5000544ABD /* pngconf.h in Headers */,
 				73FFD65E21D60C7B00544ABD /* pnglibconf.h in Headers */,
 				73FFD23121D6098100544ABD /* LibPNG.h in Headers */,
 				73FFD64721D60B5000544ABD /* pngstruct.h in Headers */,
-				73FFD66221D60CC400544ABD /* UIImage+libpng.h in Headers */,
 				73FFD65A21D60B5000544ABD /* pngpriv.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
