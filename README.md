@@ -6,6 +6,8 @@ an Objective-C wrapper for libpng.
 
 useage:
 
+encode UIImage to PNG data:
+
 ```objc
 UIImage *image = ...;
 NSData *pngData = [UIImage dataUsingLibPNGWithImage:image];
