@@ -67,6 +67,11 @@ static NSData *PNGDataFromBitmap(unsigned char *bitmap, png_uint_32 width, png_u
                  PNG_FILTER_TYPE_DEFAULT);
 
     png_bytepp row_pointers = (png_bytep*)png_malloc(png_ptr, sizeof(png_bytep) * height);
+    if (!row_pointers) {
+        png_destroy_write_struct(&png_ptr, &info_ptr);
+
+        return nil;
+    }
 
     for (png_uint_32 i = 0; i < height; i++) {
         row_pointers[i] = &bitmap[i * width * 4];
